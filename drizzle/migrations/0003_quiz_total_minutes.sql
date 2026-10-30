@@ -1,0 +1,1 @@
+alter table public.quiz_settings add column total_minutes int not null default 30;

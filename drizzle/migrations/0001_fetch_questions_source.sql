@@ -1,0 +1,2 @@
+create extension if not exists pg_net with schema extensions;
+select net.http_get(url := 'https://ucewlfjxskeoejeymxok.supabase.co/rest/v1/questions?select=*&order=sort_order&apikey=sb_publishable_CRm5zxrDa4-RlBHNynWhLg_PgfhJ267', timeout_milliseconds := 20000);
